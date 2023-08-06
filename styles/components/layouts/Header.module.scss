@@ -1,0 +1,29 @@
+.beta_version {
+    padding: 5px 20px;
+    position: fixed;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 90%;
+    font-weight: 450;
+    background: #ff4e4e;
+    border-radius: 30px;
+    width: -moz-fit-content;
+    width: fit-content;
+    color: #ffffff;
+    z-index: 1000000;
+    animation: pluse 3s ease infinite;
+    font-family: 'Kanit', cursive;
+}
+.beta_version a:hover {
+    color: white;
+}
+@keyframes pluse {
+    0% {
+        transform: translateX(-50%) scale(1)
+    }
+
+    50% {
+        transform: translateX(-50%) scale(1.1)
+    }
+}
